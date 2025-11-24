@@ -1,0 +1,7 @@
+Hospedagem rápida (Streamlit Community Cloud):
+
+1. Faça push do repositório para o GitHub.
+2. Acesse https://share.streamlit.io e conecte sua conta do GitHub.
+3. Selecione o repositório `agente-ia-web` e a branch principal.
+4. Configure variáveis de ambiente se usar chaves de API (opcional).
+5. Deploy — o Streamlit criará um link público que você coloca no README.

@@ -1,0 +1,23 @@
+Roteiro de vídeo (aprox. 2-4 minutos) — demonstração do Agente NL ⇄ CPC
+
+1) Introdução (15-20s)
+- "Olá, somos o grupo X. Este é o Agente de IA que traduz entre Português e Lógica Proposicional (CPC)."
+
+2) Mostrar README e arquitetura rápida (20s)
+- Abrir README no repositório e explicar objetivo e requisitos.
+
+3) Demonstração 1: NL -> CPC (40-60s)
+- No app, selecionar NL → CPC.
+- Definir mapeamento: "P=chover; Q=a grama ficará molhada".
+- Entrada: "Se chover, então a grama ficará molhada." → Mostrar fórmula retornada `P -> Q`.
+- Explicar brevemente como as regras funcionam.
+
+4) Demonstração 2: CPC -> NL (40-60s)
+- Selecionar CPC → NL.
+- Entrada: `(P & Q) -> R` com mapeamento `P=chover; Q=fizer frio; R=aula será cancelada`.
+- Mostrar frase gerada e comentar.
+
+5) Considerações finais (15-20s)
+- Limitações e possibilidades de melhoria (usar spaCy, LLMs, etc.).
+- Falar onde está hospedado (se aplicável) e link no README.
+- Agradecimentos e encerramento.
